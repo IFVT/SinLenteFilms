@@ -187,7 +187,7 @@ export const films: Film[] = [
     frame: lagrimas,
     meta: { es: '90 min · Colombia · Documental · 2026', en: '90 min · Colombia · Documentary · 2026' },
     fest: {
-      es: '★ Acampadoc 2021 — Beca Ibermedia',
+      es: '★ Acampadoc 2021 (Residencia — beca programa Ibermedia)',
       en: '★ ACAMPADOC 2021 (Residency — Ibermedia Program Grant)',
     },
     cta: 'Trailer',
