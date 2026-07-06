@@ -13,7 +13,7 @@ export function Bleed({ id, image, eyebrow, variant, lead, lead2 }: BleedProps) 
   const scrimClass = variant === 'crew' ? 'scrim-bleed--crew' : 'scrim-bleed';
 
   return (
-    <section id={id} className="relative flex min-h-screen overflow-hidden border-t border-line-soft">
+    <section id={id} className="relative flex min-h-dvh overflow-hidden border-t border-line-soft">
       <img src={image} alt="" className="absolute inset-0 h-full w-full object-cover" loading="lazy" />
       <div className={`pointer-events-none absolute inset-0 ${scrimClass}`} />
       <div
@@ -26,7 +26,7 @@ export function Bleed({ id, image, eyebrow, variant, lead, lead2 }: BleedProps) 
         </Reveal>
         <Reveal delay={120}>
           <p
-            className={`ts-md font-source-sans text-xl font-light leading-[1.6] text-ink-2 md:text-[27px] ${
+            className={`ts-md font-source-sans text-base font-light leading-[1.5] text-ink-2 md:text-[27px] md:leading-[1.6] ${
               variant === 'about' ? 'mb-8 max-w-[900px] md:mb-10' : 'max-w-[860px]'
             }`}
           >

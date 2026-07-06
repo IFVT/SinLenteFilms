@@ -13,7 +13,7 @@ export function Reel({ onPlay }: ReelProps) {
   const t = content[lang].reel;
 
   return (
-    <section id="reel" className="relative h-screen overflow-hidden border-t border-line-soft">
+    <section id="reel" className="relative h-dvh overflow-hidden border-t border-line-soft">
       <img src={reelImg} alt="" className="absolute inset-0 h-full w-full object-cover" loading="lazy" />
       <div className="scrim-vertical pointer-events-none absolute inset-0" />
 
@@ -28,12 +28,12 @@ export function Reel({ onPlay }: ReelProps) {
 
       <div className="pointer-events-none absolute inset-x-6 bottom-10 md:inset-x-16 md:bottom-[60px]">
         <Reveal>
-          <h2 className="ts-lg font-display text-3xl font-semibold leading-none text-white md:text-[60px]">
+          <h2 className="ts-lg font-display text-2xl font-semibold leading-none text-white md:text-[60px]">
             {t.title}
           </h2>
         </Reveal>
         <Reveal delay={120}>
-          <p className="ts-soft mt-3 max-w-[720px] font-body text-base italic text-ink-3 md:text-[26px]">{t.sub}</p>
+          <p className="ts-soft mt-3 max-w-[720px] font-body text-sm italic text-ink-3 md:text-[26px]">{t.sub}</p>
         </Reveal>
         <Reveal delay={240}>
           <div className="ts-soft mt-4 font-mono text-[11px] uppercase tracking-[3px] text-gold-bright md:mt-[22px] md:text-xs">

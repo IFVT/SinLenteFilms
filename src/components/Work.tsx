@@ -19,7 +19,7 @@ export function Work({ onPlay }: WorkProps) {
           {t.eyebrow}
         </Reveal>
         <Reveal delay={120}>
-          <h2 className="font-display text-4xl font-semibold text-ink md:text-[54px]">{t.title}</h2>
+          <h2 className="font-display text-3xl font-semibold text-ink md:text-[54px]">{t.title}</h2>
         </Reveal>
       </div>
 

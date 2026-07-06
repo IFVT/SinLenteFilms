@@ -20,7 +20,7 @@ export function Nav() {
         <LanguageSwitcher />
         <a
           href="#top"
-          className="ts-soft shrink-0 font-display text-lg font-semibold tracking-[1px] text-ink md:text-[21px]"
+          className="ts-soft shrink-0 font-display text-base font-semibold tracking-[1px] text-ink md:text-[21px]"
         >
           SINLENTE<span className="font-normal text-ink-brand"> FILMS</span>
         </a>
