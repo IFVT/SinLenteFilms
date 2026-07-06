@@ -30,7 +30,7 @@ export function FilmBand({ film, onPlay }: FilmBandProps) {
 
         <div className="relative z-[2] max-w-[880px] px-6 py-16 text-center md:px-16">
           <Reveal>
-            <h3 className="ts-lg mb-3 font-display text-2xl font-semibold tracking-[1px] text-white md:mb-4 md:text-[54px]">
+            <h3 className="ts-lg mb-3 font-display text-xl font-semibold tracking-[1px] text-white md:mb-4 md:text-[54px]">
               {film.title[lang]}
             </h3>
           </Reveal>
@@ -61,7 +61,7 @@ export function FilmBand({ film, onPlay }: FilmBandProps) {
       </article>
       <div className="bg-bg px-6 py-10 text-center md:px-16 md:py-[46px]">
         <Reveal>
-          <p className="mx-auto max-w-[820px] font-body text-sm leading-[1.6] text-ink-soft md:text-lg md:leading-[1.75]">
+          <p className="mx-auto max-w-[820px] font-body text-xs leading-[1.5] text-ink-soft md:text-lg md:leading-[1.75]">
             {film.synopsis[lang]}
           </p>
         </Reveal>

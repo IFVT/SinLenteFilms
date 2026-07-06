@@ -28,12 +28,12 @@ export function Reel({ onPlay }: ReelProps) {
 
       <div className="pointer-events-none absolute inset-x-6 bottom-10 md:inset-x-16 md:bottom-[60px]">
         <Reveal>
-          <h2 className="ts-lg font-display text-2xl font-semibold leading-none text-white md:text-[60px]">
+          <h2 className="ts-lg font-display text-xl font-semibold leading-none text-white md:text-[60px]">
             {t.title}
           </h2>
         </Reveal>
         <Reveal delay={120}>
-          <p className="ts-soft mt-3 max-w-[720px] font-body text-sm italic text-ink-3 md:text-[26px]">{t.sub}</p>
+          <p className="ts-soft mt-3 max-w-[720px] font-body text-xs italic text-ink-3 md:text-[26px]">{t.sub}</p>
         </Reveal>
         <Reveal delay={240}>
           <div className="ts-soft mt-4 font-mono text-[11px] uppercase tracking-[3px] text-gold-bright md:mt-[22px] md:text-xs">

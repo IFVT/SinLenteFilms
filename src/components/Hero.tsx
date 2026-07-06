@@ -10,12 +10,12 @@ export function Hero() {
   return (
     <header
       id="top"
-      className="relative -mt-16 flex h-dvh flex-col items-center justify-center gap-6 overflow-hidden bg-bg-black px-6 md:-mt-[78px] md:gap-8"
+      className="relative -mt-16 flex h-dvh flex-col items-center justify-center gap-6 overflow-hidden bg-bg-black px-6 pt-16 md:-mt-[78px] md:gap-8 md:pt-[78px]"
     >
       <img
         src={logo}
         alt="Sinlente Films"
-        className="max-h-[45dvh] w-auto max-w-[180px] md:max-w-[300px]"
+        className="max-h-[38dvh] w-auto max-w-[160px] md:max-w-[300px]"
       />
       <Reveal className="text-center font-mono text-[10px] uppercase tracking-[3px] text-ink-faint md:text-xs md:tracking-[4px]">
         {t.place}

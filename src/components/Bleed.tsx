@@ -26,7 +26,7 @@ export function Bleed({ id, image, eyebrow, variant, lead, lead2 }: BleedProps) 
         </Reveal>
         <Reveal delay={120}>
           <p
-            className={`ts-md font-source-sans text-base font-light leading-[1.5] text-ink-2 md:text-[27px] md:leading-[1.6] ${
+            className={`ts-md font-source-sans text-sm font-light leading-[1.45] text-ink-2 md:text-[27px] md:leading-[1.6] ${
               variant === 'about' ? 'mb-8 max-w-[900px] md:mb-10' : 'max-w-[860px]'
             }`}
           >
@@ -35,7 +35,7 @@ export function Bleed({ id, image, eyebrow, variant, lead, lead2 }: BleedProps) 
         </Reveal>
         {lead2 && (
           <Reveal delay={240}>
-            <p className="ts-soft max-w-[720px] font-body text-sm leading-[1.9] text-ink-soft md:text-base">
+            <p className="ts-soft max-w-[720px] font-body text-xs leading-[1.7] text-ink-soft md:text-base md:leading-[1.9]">
               {lead2}
             </p>
           </Reveal>
