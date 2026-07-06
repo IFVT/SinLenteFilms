@@ -58,8 +58,8 @@ export const films: Film[] = [
     frame: noche,
     meta: { es: '20 min · Colombia · Ficción · 2012', en: '20 min · Colombia · Fiction · 2012' },
     fest: {
-      es: '★ El Espejo — Mejor Fotografía · Alucine Toronto · Cannes Short Film Corner',
-      en: '★ Short Film Corner · International El Espejo Film Festival (Best Cinematography) · Alucine Toronto Film Festival (Official Selection) · Villa de Leyva Film Festival (Official Selection)',
+      es: '★ Short Film Corner 2012 · Festival Internacional El Espejo (Mejor Dirección de Fotografía) · Alucine Toronto Film Festival (Official Selection) · Festival de Villa de Leyva (Official Selection)',
+      en: '★ Short Film Corner 2012 · International El Espejo Film Festival (Best Cinematography) · Alucine Toronto Film Festival (Official Selection) · Villa de Leyva Film Festival (Official Selection)',
     },
     cta: 'Trailer',
     category: 'ficcion',
@@ -187,8 +187,8 @@ export const films: Film[] = [
     frame: lagrimas,
     meta: { es: '90 min · Colombia · Documental · 2026', en: '90 min · Colombia · Documentary · 2026' },
     fest: {
-      es: '★ Acampadoc 2019 — Beca Ibermedia',
-      en: '★ ACAMPADOC 2019 (Residency — Ibermedia Program Grant)',
+      es: '★ Acampadoc 2021 — Beca Ibermedia',
+      en: '★ ACAMPADOC 2021 (Residency — Ibermedia Program Grant)',
     },
     cta: 'Trailer',
     category: 'documental',
