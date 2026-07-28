@@ -58,8 +58,8 @@ export const films: Film[] = [
     frame: noche,
     meta: { es: '20 min · Colombia · Ficción · 2012', en: '20 min · Colombia · Fiction · 2012' },
     fest: {
-      es: '★ Short Film Corner 2012 · Festival Internacional El Espejo (Mejor Dirección de Fotografía) · Alucine Toronto Film Festival (Official Selection) · Festival de Villa de Leyva (Official Selection)',
-      en: '★ Short Film Corner 2012 · International El Espejo Film Festival (Best Cinematography) · Alucine Toronto Film Festival (Official Selection) · Villa de Leyva Film Festival (Official Selection)',
+      es: '★ Cannes — Short Film Corner 2012 · Festival Internacional El Espejo (Mejor Dirección de Fotografía) · Alucine Toronto Film Festival (Official Selection) · Festival de Villa de Leyva (Official Selection)',
+      en: '★ The Short Film Corner, Cannes 2012 · International El Espejo Film Festival (Best Cinematography) · Alucine Toronto Film Festival (Official Selection) · Villa de Leyva Film Festival (Official Selection)',
     },
     cta: 'Trailer',
     category: 'ficcion',
